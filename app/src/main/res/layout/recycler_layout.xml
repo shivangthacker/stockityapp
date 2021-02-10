@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardUseCompatPadding="true"
+    android:layout_marginTop="3dp"
+    android:layout_marginBottom="3dp"
+    app:cardCornerRadius="20dp"
+
+    android:padding="10dp">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:background="@color/colorPrimaryDark"
+    android:weightSum="5">
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_weight="1">
+            <ImageView
+                android:id="@+id/design_img_currency"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:src="@drawable/flag"
+              android:foregroundGravity="center"
+
+                />
+
+            <TextView
+                android:id="@+id/design_txt_firstcurrency"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="AUD"
+                android:textColor="@color/white"
+                android:layout_below="@+id/design_img_currency"
+                android:layout_alignStart="@+id/design_img_currency"
+                android:layout_alignLeft="@+id/design_img_currency" />
+            <TextView
+                android:id="@+id/design_txt_secondcurrency"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="USD"
+                android:textColor="@color/white"
+                android:layout_below="@+id/design_img_currency"
+                android:layout_toRightOf="@id/design_txt_firstcurrency"
+                android:layout_marginLeft="5dp"
+                 />
+
+        </RelativeLayout>
+    <ImageView
+        android:id="@+id/design_img_five"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_weight="1"
+        android:src="@drawable/bear1"
+        android:layout_gravity="center"/>
+    <ImageView
+        android:id="@+id/design_img_fifteen"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_weight="1"
+        android:src="@drawable/timer"
+        android:layout_gravity="center"/>
+    <ImageView
+        android:id="@+id/design_img_hour"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_weight="1"
+        android:src="@drawable/timer"
+        android:layout_gravity="center"/>
+    <ImageView
+        android:id="@+id/design_img_day"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_weight="1"
+        android:src="@drawable/bull1"
+        android:layout_gravity="center"/>
+
+
+
+</LinearLayout>
+
+
+</androidx.cardview.widget.CardView>

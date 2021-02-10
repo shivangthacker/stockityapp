@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="40"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:id="@+id/subscribe_appbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+
+        <com.google.android.material.tabs.TabLayout
+            android:id="@+id/subscribe_tablayout"
+            app:tabTextAppearance="@style/CustomTextAppearanceTab"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+android:layout_weight="0.8"
+            app:tabTextColor="@color/white"
+            app:tabIndicatorColor="@color/white"
+            app:tabSelectedTextColor="@color/white"
+            app:tabBackground="@color/tabbackground"
+            android:background="@color/tabbackground"
+            app:tabGravity="fill"
+            app:tabMode="fixed">
+
+        </com.google.android.material.tabs.TabLayout>
+    </com.google.android.material.appbar.AppBarLayout>
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+
+        android:background="@color/colorPrimaryDark"
+        android:padding="5dp">
+
+
+        <TextView
+            android:id="@+id/premium_txt_facilities"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:textColor="@color/white"
+            android:padding="10dp"
+            android:text="text"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/premium_txt_facilities"
+            android:orientation="horizontal"
+            android:weightSum="1"
+            android:padding="16dp">
+            <Button
+                android:id="@+id/premium_btn_month"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.5"
+                android:textColor="@color/black"
+                android:layout_marginRight="10dp"
+                android:textStyle="bold"
+                android:text="Rs. 350 per month"
+                android:textAllCaps="false"
+                android:background="@drawable/premiumplansbuttons"/>
+            <Button
+                android:id="@+id/premium_btn_year"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.5"
+                android:layout_marginLeft="10dp"
+                android:textColor="@color/black"
+                android:textAllCaps="false"
+                android:textStyle="bold"
+                android:text="Rs. 3000 per year"
+                android:background="@drawable/premiumplansbuttons"/>
+        </LinearLayout>
+        <TextView
+            android:id="@+id/premium_txt_suggestion"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:textColor="@color/skyblue"
+            android:padding="10dp"
+            android:text="text"/>
+    </LinearLayout>
+
+    <Button
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="How to stop your renewing subscription?"
+        android:background="@drawable/premiumplansbtnstopsub"
+        android:layout_marginTop="30dp"
+        android:textColor="@color/white"
+        android:textAllCaps="false"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:orientation="horizontal"
+        android:weightSum="1"
+        android:padding="16dp"
+        android:gravity="center">
+        <Button
+            android:id="@+id/premium_btn_PrivacyPolicy"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.5"
+            android:textColor="@color/white"
+            android:layout_marginRight="10dp"
+
+            android:text="Privacy Policy"
+            android:textAllCaps="false"
+            android:background="@drawable/premiumplansbtnstopsub"/>
+        <Button
+            android:id="@+id/premium_btn_Termsofuse"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.5"
+            android:layout_marginLeft="10dp"
+            android:textColor="@color/white"
+            android:textAllCaps="false"
+
+            android:text="Terms of use"
+            android:background="@drawable/premiumplansbtnstopsub"/>
+        </LinearLayout>
+    </LinearLayout>
+
+
+
+
+
+
+
+</LinearLayout>

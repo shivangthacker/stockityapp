@@ -1,0 +1,4 @@
+include ':unity-ads'
+include ':unity-ads'
+include ':app'
+rootProject.name = "Currency Info"

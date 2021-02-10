@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "466125053034",
+    "firebase_url": "https://stockitystock.firebaseio.com",
+    "project_id": "stockitystock",
+    "storage_bucket": "stockitystock.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:466125053034:android:ae848f315654da6368be13",
+        "android_client_info": {
+          "package_name": "com.currencyinformation.currencyinfo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "466125053034-k09dskbevo9ov2djbsjnhsc7a42c82ff.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.currencyinformation.currencyinfo",
+            "certificate_hash": "2f120c0e98b456b9cfc9187578caaf7da0d288ca"
+          }
+        },
+        {
+          "client_id": "466125053034-uu2d9qqk57vecqsro2fg64hd7f3a5e63.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCVkbAleRD2rp3PK6gfsH1LVq6F3ZUDgj8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "466125053034-uu2d9qqk57vecqsro2fg64hd7f3a5e63.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

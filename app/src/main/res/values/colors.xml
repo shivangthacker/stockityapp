@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#EB042393</color>
+    <color name="colorPrimaryDark">#001870</color>
+    <color name="colorAccent">#03DAC5</color>
+    <color name="white">#FFFFFF</color>
+    <color name="grey">#AFAFAF</color>
+    <color name="blue">#204CEC</color>
+    <color name="tabbackground">#BC153DCC</color>
+    <color name="black">#000000</color>
+    <color name="pripbutton">#C4F5FB</color>
+    <color name="skyblue">#03DAC4</color>
+    <color name="red">#DA0303</color>
+</resources>
